@@ -1,0 +1,73 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+section .logo{
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    background-color: gray
+}
+
+section .cabecalho{
+    grid-column: 2/span 2;
+    grid-row: 1/span 1;
+    background-color:gray
+}
+
+section .busca{
+    text-align: center;
+    grid-column: 1/span 3;
+    grid-row: 2/span 1;
+    background: gray;
+}
+
+section .links{
+    grid-column: 1/span 1;
+    grid-row: 3/span 2;
+    background: gray;
+}
+
+section .plano1{
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    background: gray;
+}
+
+section .plano2{
+    grid-column: 3/span 1;
+    grid-row: 3/span 1;
+    background: gray;
+}
+
+section .plano3{
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+    background: gray;
+}
+
+section .plano4{
+    grid-column: 3/span 1;
+    grid-row: 4/span 1;
+    background: gray;
+}
+
+section .rodape{
+    grid-column: 1/span 3;
+    grid-row: 5/span 1;
+    background: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
